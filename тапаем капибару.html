@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>tap capybara</title>
+     <script>
+        let i=0;
+        function f(){
+            let p = document.getElementById("d");
+            i=i+1;
+            p.innerText=i;
+        }
+     </script>
+     <style>
+         body{
+            background-color: rgb(216, 172, 90)
+         }
+         img {
+            display: block;
+            margin: auto;
+         }
+        p {
+           text-align: center; 
+         }
+     </style>
+</head>
+<body>
+    <img id="i" align="center" onclick="f()" src="https://static.vecteezy.com/system/resources/previews/024/821/919/original/cute-capybara-cartoon-on-transparent-background-ai-generated-png.png" width="200px">
+    <p id="d">  </p>
+</body>
+</html>
